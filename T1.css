@@ -1,0 +1,90 @@
+#header{
+    background-image: url("https://ftr.imgix.net/FQBOc9Uh5e22pHikmfCJR/3ce3022343c7ad918545a6a2e01f36b5/homepage-pingzhu-hero-bg-opt-v2.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1920&s=ae7331908c13b70917d2f5b72adea99b");
+ width:1525px ; height: 90vh;
+ background-position: 100px 100px 160px 60px; box-shadow:   0 5px 15px rgba(0,0,0,0.6);
+ display:flexbox; align-items: flex-start; justify-content: center; flex-direction: column;
+background-size:cover;   
+}
+#header h1{
+    font-size: 80px; font-weight: bold;
+}
+#header h4{
+    font-weight: bold; font-size:50px;
+}
+#header button{
+    background-color:green;
+    color:black; border:0;
+    padding: 14px 50px 14px 50px;  font-weight: bold; font-size:15px; border-radius:90px;
+}
+#header .rightflex{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    font-size: 18px;
+   position: absolute; top: 10px; right: 50px; text-align:right;
+}
+#hero {
+    display:flex; justify-content:space-evenly; align-items: center;
+}
+#hero h1{
+    font-size: 50px; font-weight: bold; 
+}
+#hero button{
+        background-color:green;
+        color:black; border:0;
+        padding: 14px 50px 14px 50px; border-radius:90px; font-weight: bold;
+}
+#feature {
+    display:flex; justify-content:space-evenly; align-items: center;
+}
+#feature h1{
+    font-size: 40px; font-weight: bold;
+}
+#fe {
+    display:flex;  justify-content:space-evenly; align-items: center;
+}
+#fe h1{
+    font-size: 40px; font-weight: bold;
+}
+#fe button{
+    background-color:green;
+    color:black; border:0;
+    padding: 14px 50px 14px 50px; border-radius:90px; font-weight: bold;
+}
+#fe .procontainer{
+    display:flex; align-items:center; justify-content:space-between;flex-wrap:wrap;
+}
+#fe h3{
+     font-weight: bold; color:darkgreen; font-style:underline;
+}
+#banner .banner3 {
+    display:flex;  justify-content:space-around; 
+}
+#banner .banner3  p{
+    justify-content:center; align-content:center
+}
+#banner h3 {
+    font-weight: bold; color:darkgreen; font-style:underline;
+}
+#box{
+    background-image:url("https://ftr.imgix.net/7lwGiNKX1HxPubuMWDIMbq/b59b91270f571645d72011e317c60ff5/map-server-home-desktop-_2x.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1754&s=b5c060c63c4e57c1b42cc5188bedd123");
+    width:1525px ; height: 90vh; 
+ background-position: 70px 70px 70px 70px; 
+ display:flexbox; align-items: flex-start; justify-content: center; flex-direction: column;
+background-size:cover;   
+}
+#box h1 {
+    font-weight: bold; font-size: 60px; align-items: center; color:navy;
+}
+#box h3 {
+    font-weight: bold; font-size: 20px; align-items: center; color:darkgreen;  font-style:underline;
+}
+#pre-box{
+    background-color: antiquewhite; background-position:70px 70px 70px 70px; ;
+}
+#pre-box h1{
+  font-size: 55px;
+} 
+#pre-box .box1{
+    display:flex;  justify-content:first baseline; align-content: center; 
+}
